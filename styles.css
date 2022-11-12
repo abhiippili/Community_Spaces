@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    z-index: 1;
+    overflow: hidden;
+    height: 50px;
+    background-color: #102227fa;
+    width: 98.6%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 30px 10px rgb(1, 88, 88);
+}
+header li, header a{
+    font-family: "Poppins";
+    font-size: 16.5px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+header img{
+    width: 45px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+nav ul li{
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+    margin-left:  40px;
+}
+nav ul li:hover{
+    padding: 5px 18px;
+    border-bottom: 3.5px solid teal;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+.specialnav li{
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 15px;
+    list-style: none;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+}
+.specialnav li a{
+    background-color: transparent;
+}
+.logo{
+    cursor: pointer;
+}   
+.specialnav li:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 10px 5px rgb(1, 107, 107);
+}
+.opening{
+    width: 100%;
+    height: 100vh;
+}
+.banner{
+    height: 99vh;
+    width: 100%;
+    background:url(1_NLNTNh0ptgY-rkR5uJVNyA.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 10px rgba(1, 43, 43, 0.651);
+}
+.banner-container{
+    height: 98.5vh;
+    display: grid;
+    grid-template-rows: 170px 100px 100px 150px auto ;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.banner-box1{
+    padding-top: 58px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: "Lato";
+    font-size: 30px;
+    backdrop-filter: blur(0.9px);
+    text-shadow: 2px 4px 12px black;
+}
+.bestword{
+    color: rgb(106, 156, 26);
+    margin: -18px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.andword{
+    margin: 13.5px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.period{
+    color: rgb(106, 156, 26);
+    margin: -37px;
+    margin-left: 3px;
+    font-size: 70px;
+}
+.banner-box2{
+    font-family: "ubuntu";
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2.2px);
+}
+.banner-box2 a p{
+    letter-spacing: 6px;
+    word-spacing: 8.2px;
+    color: whitesmoke;
+    padding: 10px 17px;
+    border-radius: 0px;
+    border: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.822);
+    box-shadow: inset 0px 0px 23px 4px #343630f5;
+}
+.banner-box2 a{
+    text-decoration: none;
+}
+.banner-box2 p:hover{
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 0px 3px 11px 5px #6a9c1abe;
+}
+.banner-box3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: "Poppins";
+    backdrop-filter: blur(2.2px);
+}
+.button a{
+    color:inherit;
+}
+.banner-box3 .button{   
+    margin: 0 20px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.5);
+}
+.banner-box3 .button .icon{
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.banner-box3 .button:nth-child(1):hover{
+    background-color: #2e4dbd;
+    margin-top: 30px;
+    box-shadow: 0px -9px 8px  rgba(0, 0, 0, 0.664);
+}
+.banner-box3 .button:nth-child(1):hover i{
+    color: white;
+}
+.banner-box3 .button:nth-child(2):hover{
+    background-color: #5fbbfd;
+    margin-top: 30px;
+    box-shadow: 0px -9px 8px  rgba(0, 0, 0, 0.664);
+}
+.banner-box3 .button:nth-child(2):hover i{
+    color: white;
+}
+.banner-box3 .button:nth-child(3):hover{
+    background-color: rgb(141, 64, 241);
+    margin-top: 30px;
+    box-shadow: 0px -9px 8px  rgba(0, 0, 0, 0.664);
+}
+.banner-box3 .button:nth-child(3):hover i{
+    color: white;
+}
+.banner-box3 .button:nth-child(4):hover{
+    background-color: black;
+    margin-top: 30px;
+    box-shadow: 0px -9px 8px  rgba(0, 0, 0, 0.664);
+}
+.banner-box3 .button:nth-child(4):hover i{
+    color: white;
+} 
+.banner-box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.2px);
+}
+.banner-box4 img{
+    width:100px
+}
+.grid-container-1{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.658);
+    margin: 140px 2%;
+    padding: 45px 40px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 500px; 
+}
+.box1{
+    font-family: "Lato";
+    color: teal;
+    font-size: 40px;
+    text-shadow: 0px 1px 20px rgb(190, 188, 188);
+}
+.box1 .p1{
+    margin-bottom: 50px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+}
+.box1 p{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    background-position: initial;
+    background-image: url(wp6866993.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px  rgb(0, 0, 0);
+}
+.box2:hover{
+    transform:scale(0.98);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box2 a{
+    text-decoration: none;
+}
+.game-offer{
+    backdrop-filter: blur(1.2px);
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    height: 492px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato";
+    color: white;
+    text-shadow: 1px 3px 15px #f504cd;
+}
+.offerline-1{
+    font-size: 62px;;
+}
+.offerline-2{
+    margin: 20px;
+    font-size: 40px;
+}
+#gamebanner{
+    scroll-margin-top: 130px;
+}
+.grid-container-2{
+    height: 80vh;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.658);
+    margin: 140px 2%;
+    padding: 45px 40px;
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 435px 435px 435px;
+    grid-template-rows: 179.25px 179.25px 179.25px;
+    grid-gap: 35px 40px;
+}
+#explore{
+    scroll-margin-top: 60px;
+}
+.grid-container-2 div{
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.726);
+}
+.grid-container-2 a{
+    text-decoration: none;
+    color: inherit;
+    backdrop-filter: blur(0.8px);
+    background-color: rgba(0, 0, 0, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 2px 10px black;
+}
+.grid-container-2 div:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+}
+.grid-container-2 .imgbox-1 {
+    background-image: url('luca-bravo-217276-unsplash.jpg');
+    background-size: cover;
+}
+.grid-container-2 .imgbox-2{
+    background-image: url('Android-app-development-cost-1.png');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-3{
+    background-image: url('banner-Web-Development.png');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-4{
+    background-image: url('iStock-943065362.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-5{
+    background-image: url('w-1500_h-auto_m-fit_s-any__shutterstock_581136349.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-6{
+    background-image: url('artificial-intelligence-shoolini-university-best-himachal-pradesh-university.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-7{
+    background-image: url('machine-learning-covid-19.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-8{
+    background-image: url('blockchain2-e1574535337872.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-2 .imgbox-9{
+    background-image: url('032421052241.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-container-3{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.658);
+    margin: 140px 2%;
+    padding: 45px 40px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px; 
+}
+.gc3box1 img{
+    width: 550px;
+} 
+.gc3box1{
+    display: flex;
+    justify-content: center;
+}
+.gc3box1:hover{
+    transform: scale(1.06);
+    transition: 0.2s ease;
+}
+.gc3box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gc3box2 p{
+    justify-content: center;
+    font-family: "Lato";
+    display: flex;
+}
+.gc3box2 .p1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 0px 1px 7px black;
+}
+.gc3box2 .p2{
+    font-size: 45px;
+    margin-bottom: 8px;
+    color: rgb(106, 156, 26);
+    color: black;
+    text-shadow: 0px 2px 10px  rgb(119, 170, 37);
+}
+.gc3box2 .p3,.gc3box2 .p4{
+    color: black;
+    text-shadow: 0px 1px 7px rgba(0, 0, 0, 0.322);
+    font-size: 20px;
+}

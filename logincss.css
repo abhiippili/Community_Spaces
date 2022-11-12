@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  	overflow:hidden;
+}
+header{
+    z-index: 1;
+    overflow: hidden;
+    height: 50px;
+    background-color: #102227fa;
+    width: 98.6%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 13px 2px rgb(1, 88, 88);
+}
+header li, header a{
+    font-family: "Poppins";
+    font-size: 16.5px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+header img{
+    width: 45px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 136px;
+}
+nav ul li{
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+    margin-left:  40px;
+}
+nav ul li:hover{
+    padding: 5px 18px;
+    border-bottom: 3.5px solid teal;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+.specialnav li{
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 15px;
+    list-style: none;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+}
+.specialnav li a{
+    background-color: transparent;
+}
+.logo{
+    cursor: pointer;
+}   
+.specialnav li:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 10px 5px rgb(1, 107, 107);
+}
+body{
+    background-image: url(High_resolution_wallpaper_background_ID_77700351953.jpg);
+}
+li{
+    list-style: none;
+}
+.subcontainer{
+    font-family: "Lato";
+}
+button{
+    border: 0px;
+    font-family: "Lato";
+}
+input
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.subcontainer a{
+    color: white;
+    padding: 10px;
+    background-color: inherit;
+    border-radius: 4px;
+}
+a:visited{
+    color: white;
+}
+.main{
+    height: 100%;
+    width:100%;
+    background-image: url(Special\ Blue\ Win10.jpg);
+    position: absolute;
+    background-size: cover;
+}
+.subcontainer{
+    padding: 22px;
+    width: 400px;
+    height: 530px;
+    margin: 3% auto;
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    color:white;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.384);
+    position: relative;
+}
+.main i{
+    padding-left: 48%;
+    margin: 10px 0px;
+    font-size: 3em;
+}
+div.head1
+{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+form.form{
+    top: 20px;
+    position: absolute;
+    display: block;
+}
+form.form input{
+    width: 370px;
+    font-size: 1em;
+    padding: 4px 10px;
+    margin: 10px 0px;
+    background-color: white;
+    border-radius: 40px;
+}
+div.box1 button{
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid teal;
+    background-color: teal;
+}
+div.box1 button:hover{
+    background-color: black;
+    box-shadow: 1px 1px 12px 2px teal;
+    transition: 0.5s;
+}
+div.box2{
+    display: flex;
+}
+div.box2 button{
+    padding: 5px;
+    margin-left: 40px;
+    width:100px;
+}
+div.box1{
+    display: flex;
+    flex-direction: column;
+}
+div.smalltext{
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+#login{
+    left:480px;
+}

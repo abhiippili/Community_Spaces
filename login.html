@@ -1,0 +1,71 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="shortcut icon" href="global.png" type="image/x-icon">
+</head>
+
+<body class="login-body">
+    <header>
+        <a href="index.html"><img class="logo" src="global.png" alt="logo error"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#explore">Explore</a></li>
+                <li><a href="index.html#contribute">Contribute</a></li>
+            </ul>
+        </nav>
+        <ul class="specialnav">
+            <li><a href="login.html">Login/Register</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <i class="fab fa-accusoft"></i>
+        <div class="subcontainer">
+
+            <form class="form" id="register">
+                <div class="head1">Register</div>
+                <label>Name:</label><input type="text" placeholder="Full name" required>
+                <label>Email-Id:</label><input type="email" placeholder="A Valid Email address" required>
+                <label>Username:</label><input type="text" placeholder="A unique name" required>
+                <label>Password:</label><input type="password" placeholder="Eg:abc_12345" required>
+                <label>Confirm password:</label><input type="password" placeholder="Re-enter the Password" required>
+                <div class="box1">
+                    <button>Register</button>
+                    <div class="box2">
+                        <div class="smalltext">Already Registered?.Login here</div>
+                        <button type="button" onclick="login()" class="btn">Login</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form" id="login">
+                <div class="head1">Login</div>
+                <label>Username:</label><input type="text" required>
+                <label>Password:</label><input type="password" required>
+                <div class="box1">
+                    <button>Login</button>
+                    <div class="box2">
+                        <div class="smalltext">Haven't Registered yet</div>
+                        <button type="button" onclick="register()" class="btn">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("register")
+        var y = document.getElementById("login")
+        function login() {
+            x.style.left = "-2450px"
+            y.style.left = "20px"
+        }
+        function register() {
+            y.style.left = "600px"
+            x.style.left = "20px"
+        }
+    </script>
+</body>
+
+</html>
